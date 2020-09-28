@@ -1,0 +1,19 @@
+{
+  "name": "slack_app_teste",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1", 
+    "start": "node src/index.js" 
+  },
+  "keywords": [],
+  "author": "Julie Santiago",
+  "license": "MIT",
+  "dependencies": {
+    "@slack/web-api": "^5.12.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "i": "^0.3.6"
+  }
+}
